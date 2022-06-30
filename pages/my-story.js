@@ -2,8 +2,13 @@ import Head from 'next/head';
 import { Header } from "../components/Header";
 import Content from "../components/Content";
 import { Footer } from "../components/Footer";
+import TagManager from 'react-gtm-module';
 
 export default function MyStory() {
+
+  useEffect(()=>{
+    TagManager.initialize({ gtmId: 'GTM-MS3MWVF' });
+  },[])
 
   return (
     <>

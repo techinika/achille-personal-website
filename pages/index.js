@@ -18,20 +18,6 @@ export default function Home(){
                 <meta name="viewport" content="initial-scale=1, width=device-width" />
                 <link rel="manifest" href="/site.webmanifest"></link>
                 <meta name="google-site-verification" content="4Z07RV-1-Qub3aUIvRamziU_UKN2AZRnlyAORUy9tiA" />
-
-                {/* <!-- Google Tag Manager --> */}
-                    <script>
-                        (function(w,d,s,l,i){
-                            w[l]=w[l]||[]
-                            w[l].push({
-                                'gtm.start'"
-                                new Date().getTime(),event:'gtm.js'
-                            });
-                            
-                            var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-                    })(window,document,'script','dataLayer','GTM-MS3MWVF');</script>
-                {/* <!-- End Google Tag Manager --> */}
             </Head>
             <div className="relative">
                 <Header/>
