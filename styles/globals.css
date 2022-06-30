@@ -155,10 +155,11 @@ a:hover {
 }
 
 .pods {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  cursor: pointer;
 }
 
 .nav2 p {
@@ -174,7 +175,35 @@ a:hover {
 }
 
 .vnav a {
+  padding: 3px;
+}
+
+.event {
+  background-color: aliceblue;
   padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.event a, p {
+  margin: 0;
+}
+
+.event a {
+  font-size: large;
+}
+
+.event p {
+  font-size: small;
+}
+
+.event button {
+  background-color: var(--main-color);
+  padding: 10px;
+  color: aliceblue;
+  border-radius: 10px;
 }
 
 @media (max-width: 900px){

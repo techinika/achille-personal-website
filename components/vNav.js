@@ -12,6 +12,9 @@ export default function VertNav(){
                     <Link href="/blog">
                         <a>Blog</a>
                     </Link>
+                    <Link href="/events">
+                        <a>Events</a>
+                    </Link>
                 </div>
             </div>
         </>

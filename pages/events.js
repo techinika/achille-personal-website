@@ -1,20 +1,20 @@
-import React, {useEffect} from "react";
+import React, {useEffect} from 'react';
 import Head from 'next/head';
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import { Podcasts } from "../components/Podcasts";
+import HomePage from "../components/HomePage";
 import TagManager from 'react-gtm-module';
+import { EventsPage } from '../components/EventsPage';
 
-export default function Podcasting(){
+export default function Events(){
 
     useEffect(()=>{
         TagManager.initialize({ gtmId: 'GTM-MS3MWVF' });
     },[])
-
     return (
         <>
             <Head>
-                <title>Podcasts - Cishahayo Songa Achille</title>
+                <title>Cishahayo Songa Achille - Software Developer | Entrepreneur | Public Speaker | Content creator</title>
                 <meta name="keywords" content="Cishahayo Songa Achille, Software Developer, Entrepreneur, Public Speaker, Content creator"></meta>
                 <meta name="viewport" content="initial-scale=1, width=device-width" />
                 <link rel="manifest" href="/site.webmanifest"></link>
@@ -22,7 +22,7 @@ export default function Podcasting(){
             </Head>
             <div className="relative">
                 <Header/>
-                <Podcasts/>
+                <EventsPage/>
                 <Footer />
             </div>
         </>
