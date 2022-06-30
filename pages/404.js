@@ -18,7 +18,7 @@ const NotFound = () => {
                 <section>
                     <Nav title="Page Not Found!"/>
                     <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-                        <p>A page you're looking for, is not found!</p>
+                        <p>A page you are looking for, is not found!</p>
                         <button className="btn">Go to Homepage</button>
                     </div>
                 </section>
