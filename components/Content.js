@@ -25,15 +25,15 @@ export default function Content(){
                     In 2022, I started <b>My Lovely Africa Podcast</b>. Through this podcast, I want to share life of Africans in Africa, how they feel about Africa, and present Africa to the world.
                     <br></br>
                     <br></br>
-                    <b>There's more to this. So, take your &#9749; and read the whole story!</b>
+                    <b>There&apos;s more to this. So, take your &#9749; and read the whole story!</b>
                 </p>
 
                 <h1>Before I join tech 📵 2007-2016!</h1>
 
-                <p>I used to want to become a priest. It's absurd, right? I know. I was in primary then, and I was very young. But I believe that person's aspirations and wishes has a close relationship to what the person knows. I was a pupil at a school called <b>Kibali Primary School</b>.</p>
-                <p>After I did <b>Primary National Examination (Done after Primary 6 here in Rwanda 🇷🇼)</b>, I pursued another step on my dreams. I joined Rwesero Minor Seminary (a school for only boys who wanted to become priests) and it was the beginning of my High School journey. I stayed there for one year, and fate called, I had to change the school. That's when I moved to CDBR (College Don Bosco De Rushaki) and repeated Senior 1. And from there, my dream died.</p>
+                <p>I used to want to become a priest. It&apos;s absurd, right? I know. I was in primary then, and I was very young. But I believe that person&apos;s aspirations and wishes has a close relationship to what the person knows. I was a pupil at a school called <b>Kibali Primary School</b>.</p>
+                <p>After I did <b>Primary National Examination (Done after Primary 6 here in Rwanda 🇷🇼)</b>, I pursued another step on my dreams. I joined Rwesero Minor Seminary (a school for only boys who wanted to become priests) and it was the beginning of my High School journey. I stayed there for one year, and fate called, I had to change the school. That&apos;s when I moved to CDBR (College Don Bosco De Rushaki) and repeated Senior 1. And from there, my dream died.</p>
                 <p>At CDBR, I stayed there for next 3 years for Ordinary Level, and that was going to change my life completely. I started discovering some things on myself, and doing some things, having friends, stuff like that, you know. I started writing poems, songs, doing my old habit of drawing but did not give it much efforts.</p>
-                <p>✔️ That's when I created my first Facebook account! 🔥</p>
+                <p>✔️ That is when I created my first Facebook account! 🔥</p>
                 <p>✔️ In 2015, I used smartphone for the first time (was not mine though)! 🔥</p>
                 <p>✔️ In 2016, it was my first time using a computer (XO computer) 🔥</p>
                 <p>✔️ I applied to attend <b>IPRC Kigali (Best Technical school in Rwanda)</b> out of curiosity (People thought that I would choose science) 🔥</p>
@@ -57,7 +57,7 @@ export default function Content(){
                 <p>✔️ I started learning <b>content creation</b>. Mixed my passion for writting with technology.</p>
                 <p>✔️ I created more than 2 blogs which was both deleted later after reaching more that 1000 people.</p>
                 <p>✔️ I learned what is CMS, and learned how to make a website with a CMS especially <b>WordPress</b> as well as developing my HTML and CSS skills.</p>
-                <p>✔️ I attended kLab and Progate developer challenge which introduced me to more complex programming languages like <b>Python and Ruby, and got introduced to a version control Git (That's when I created a Github account)</b>.</p>
+                <p>✔️ I attended kLab and Progate developer challenge which introduced me to more complex programming languages like <b>Python and Ruby, and got introduced to a version control Git (That is when I created a Github account)</b>.</p>
                 <p>✔️ In class, I was getting better in <b>Networking (Setting up LAN network, Configuring Wireless network, CCTV Camera installation and more)</b>.</p>
 
                 <h4>2019</h4>
@@ -106,12 +106,12 @@ export default function Content(){
 
                 <p>🌿 I quit Job at Rujo Rooms in February.</p>
                 <p>🌿 I became a <strong>Technical Team Lead at ATLP</strong> in February.</p>
-                <p>🌿 We translated changed <strong>Techinika.com</strong> into a business. We are now enlarging our goals. We have now events happening, providing Information services, and partnering with the best companies in their fields to provide quality services.</p>
+                <p>🌿 We changed <strong>Techinika.com</strong> into a business. We are now enlarging our goals. We have now events happening, providing Information services, and partnering with the best companies in their fields to provide quality services.</p>
                 <p>🌿 AFRINET stopped. Team disbanded.</p>
-                <p>🌿 I started <strong>My Lovely Africa Podcast</strong>. A podcast to talk about African Life from local Africans' view and Diaspora's view, and encoirage people to work towards African development instead of leaving Africa.</p>
+                <p>🌿 I started <strong>My Lovely Africa Podcast</strong>. A podcast to talk about African Life from local Africans&apos; view and Diaspora&apos;s view, and encoirage people to work towards African development instead of leaving Africa.</p>
                 <p>🌿 I joined <strong>Afflatus Africa</strong>. A pan-African organisation creating leaders and helping the youth unveil their potential.</p>
 
-                <h1>I have shared a lot and it's mostly hard for me to share my story. I did my best, this is about my past, and there is a lot unsaid. If you want to stalk me and find out what I hid😁, which I don't suggest; check my social media accounts or visit&nbsp;
+                <h1>I have shared a lot and it is mostly hard for me to share my story. I did my best, this is about my past, and there is a lot unsaid. If you want to stalk me and find out what I hid😁, which I do not suggest; check my social media accounts or visit&nbsp;
                     <Link href="/blog">
                         <a target="_blank">my blog</a>
                     </Link>.
