@@ -1,6 +1,7 @@
 import Image from "next/image"
 import me from "../public/AS-PNG.png"
 import { useRouter } from "next/dist/client/router"
+import VertNav from "./vNav";
 
 export default function HomePage(){
     const router = useRouter();
@@ -10,6 +11,7 @@ export default function HomePage(){
                 <div className="profile">
                     <div className="imageHolder">
                         <Image src={me} className="profilePic" alt="Cishahayo Songa Achille"/>
+                        <VertNav/>
                     </div>
                     <div className="profileInfo">
                         <h1>Cishahayo Songa Achille</h1>
@@ -20,7 +22,13 @@ export default function HomePage(){
                                 e.stopPropagation();
                                 router.push("/my-story");
                             }}>Read my Story</button>
-                            <button className="btn">Download my CV</button>
+                            <button className="btn" onClick={e=>{
+                                e.stopPropagation();
+                                const cv = "https://achillesonga.com/achille-songa-cv.pdf";
+                                if (typeof window !== "undefined"){
+                                    window.location.href = cv;
+                                }
+                            }}>Download my CV</button>
                         </div>
                     </div>
                 </div>

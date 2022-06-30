@@ -154,6 +154,29 @@ a:hover {
   cursor: pointer;
 }
 
+.pods {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav2 p {
+  margin: 0;
+  width: 100%;
+  border-bottom: 1px solid var(--main-color);
+  font-weight: bold;
+}
+
+.vnav {
+  display: flex;
+  flex-direction: column;
+}
+
+.vnav a {
+  padding: 10px;
+}
+
 @media (max-width: 900px){
   section {
     width: 90%;
@@ -171,15 +194,20 @@ a:hover {
 @media (max-width: 700px){
   section {
     width: 90%;
-    margin: -50% auto 0 auto;
+    margin: -40% auto 0 auto;
   }
   .profile {
     display: flex;
     flex-direction: column;
   }
+
+  .vnav {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
-@media (max-width: 700px){
+@media (max-width: 600px){
   section {
     width: 90%;
     margin: -40% auto 0 auto;
@@ -187,6 +215,10 @@ a:hover {
   .profile {
     display: flex;
     flex-direction: column;
+  }
+  .vnav {
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -199,5 +231,10 @@ a:hover {
   .profile {
     display: flex;
     flex-direction: column;
+  }
+
+  .vnav {
+    display: flex;
+    flex-direction: row;
   }
 }
