@@ -8,7 +8,7 @@ import TagManager from 'react-gtm-module';
 export default function Home(){
 
     useEffect(()=>{
-        TagManager.initialize({ gtmId: 'GTM-MS3MWVF' });
+        TagManager.initialize({ gtmId: 'G-9VFYEJ4FZB' });
     },[])
     return (
         <>
