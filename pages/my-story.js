@@ -19,6 +19,9 @@ export default function MyStory() {
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <link rel="manifest" href="/site.webmanifest"></link>
         <meta name="google-site-verification" content="4Z07RV-1-Qub3aUIvRamziU_UKN2AZRnlyAORUy9tiA" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
       </Head>
       <div className="relative">
         <Header/>
