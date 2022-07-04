@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
 
 :root {
   --main-color: rgb(16, 40, 122);
@@ -185,6 +185,7 @@ a:hover {
   align-items: flex-start;
   justify-content: space-between;
   gap: 20px;
+  border-radius: 5px;
 }
 
 .event a, p {
@@ -204,6 +205,43 @@ a:hover {
   padding: 10px;
   color: aliceblue;
   border-radius: 10px;
+}
+
+.articles {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.article {
+  width: 100%;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.articleHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article p {
+  font-size: smaller;
+  font-style:oblique;
+}
+
+.articleData {
+  padding: 10px;
+}
+
+.articleData span {
+  font-size: small;
+  margin: 10px auto;
+  font-weight: bold;
+  color: var(--main-color);
+  text-decoration: double;
 }
 
 @media (max-width: 900px){
