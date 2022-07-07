@@ -272,6 +272,18 @@ a:hover {
   padding: 5px;
 }
 
+.error {
+  text-align: center;
+  color: red;
+  padding: 10px;
+}
+
+.success {
+  text-align: center;
+  color: var(--hover-color);
+  padding: 10px;
+}
+
 @media (max-width: 900px){
   section {
     width: 90%;

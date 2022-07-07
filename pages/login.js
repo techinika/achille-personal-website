@@ -1,16 +1,21 @@
-import React, {useEffect} from 'react';
+import React, {useState} from 'react';
 import Head from 'next/head';
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
-import HomePage from "../components/HomePage";
-import TagManager from 'react-gtm-module';
+import axios from "axios";
 import { Nav } from '../components/Nav';
 
 export default function Home(){
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [feedback, setFeedback] = useState({});
+    const [loading, setLoading] = useState(false);
 
-    useEffect(()=>{
-        TagManager.initialize({ gtmId: 'G-9VFYEJ4FZB' });
-    },[])
+    const handleLogin = (e) => {
+        setLoading(true)
+        
+    }
+    
     return (
         <>
             <Head>
@@ -27,9 +32,14 @@ export default function Home(){
                 <section>
                     <Nav title="Login"/>
                     <form className='form-primary'>
-                        <input type="text" placeholder="Admin email"/>
-                        <input type="password" placeholder="Admin Password"/>
-                        <button className='btn'>Enter</button>
+                        <input value={email} onChange={e=>setEmail(e.target.value)} type="text" placeholder="Admin email"/>
+                        <input value={password} onChange={e=> setPassword(e.target.value)} type="password" placeholder="Admin Password"/>
+                        {!loading && <button className='btn' onClick={handleLogin}>Login</button>}
+                        {loading && <button className='btn' disabled>Loading...</button>}
+                        {feedback.type === "error" ?
+                            <div>{feedback.message !== "" && <p className='error'>{feedback.message}</p>}</div> :
+                            <div>{feedback.message !== "" && <p className='success'>{feedback.message}</p>}</div>
+                        }
                     </form>
                 </section>
                 <Footer />
