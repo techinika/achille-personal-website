@@ -4,6 +4,9 @@ import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import axios from "axios";
 import { Nav } from '../components/Nav';
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+
+const auth = getAuth();
 
 export default function Home(){
     const [email, setEmail] = useState("");
@@ -11,9 +14,27 @@ export default function Home(){
     const [feedback, setFeedback] = useState({});
     const [loading, setLoading] = useState(false);
 
-    const handleLogin = (e) => {
+    const handleLogin = () => {
         setLoading(true)
         
+        if(email !== "" && password !== ""){
+            signInWithEmailAndPassword(auth, email, password)
+            .then(userCredential => {
+                const user = userCredential.user
+                console.log(user)
+                setFeedback({type: "success", message: "Log in successful!"});
+                setLoading(false)
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                console.log(errorMessage)
+                setLoading(false)
+            })
+        }else{
+            setFeedback({type: "error", message: "Credentials can not be empty!"});
+            setLoading(false)
+        }
     }
     
     return (
@@ -34,8 +55,7 @@ export default function Home(){
                     <form className='form-primary'>
                         <input value={email} onChange={e=>setEmail(e.target.value)} type="text" placeholder="Admin email"/>
                         <input value={password} onChange={e=> setPassword(e.target.value)} type="password" placeholder="Admin Password"/>
-                        {!loading && <button className='btn' onClick={handleLogin}>Login</button>}
-                        {loading && <button className='btn' disabled>Loading...</button>}
+                        <button className='btn' onClick={handleLogin}>{loading ? "Loading..." : "Login"}</button>
                         {feedback.type === "error" ?
                             <div>{feedback.message !== "" && <p className='error'>{feedback.message}</p>}</div> :
                             <div>{feedback.message !== "" && <p className='success'>{feedback.message}</p>}</div>

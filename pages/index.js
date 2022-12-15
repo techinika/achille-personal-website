@@ -13,7 +13,7 @@ export default function Home(){
     return (
         <>
             <Head>
-                <title>Resume - Cishahayo Songa Achille</title>
+                <title>Cishahayo Songa Achille - Entrepreneur</title>
                 <meta name="keywords" content="Cishahayo Songa Achille, Software Developer, Entrepreneur, Public Speaker, Content creator"></meta>
                 <meta name="viewport" content="initial-scale=1, width=device-width" />
                 <link rel="manifest" href="/site.webmanifest"></link>
