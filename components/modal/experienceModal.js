@@ -21,7 +21,7 @@ export default function ExperienceModal({title, data, setOpen}){
                             <h4>Responsibilities:</h4>
                             <ul>
                                 {d.Responsibilities && d.Responsibilities.reverse().map(res => (
-                                    <li key={res}>
+                                    <li key={res} className="data-list">
                                         {res}
                                     </li>
                                 ))}
