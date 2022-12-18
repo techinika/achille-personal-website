@@ -8,28 +8,24 @@
 
 
 <url>
-  <loc>https://www.achillesonga.com/</loc>
-  <lastmod>2022-06-30T09:00:47+00:00</lastmod>
+  <loc>https://www.achillesonga.net/</loc>
+  <lastmod>2022-12-18T19:41:53+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
-
 <url>
-  <loc>https://www.achillesonga.com/my-story</loc>
-  <lastmod>2022-06-30T09:00:47+00:00</lastmod>
+  <loc>https://www.achillesonga.net/my-story</loc>
+  <lastmod>2022-12-18T19:41:53+00:00</lastmod>
+  <priority>0.90</priority>
 </url>
-
 <url>
-  <loc>https://www.achillesonga.com/podcasts</loc>
-  <lastmod>2022-06-30T09:00:47+00:00</lastmod>
+  <loc>https://www.achillesonga.net/podcasts</loc>
+  <lastmod>2022-12-18T19:41:53+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-
 <url>
-  <loc>https://www.achillesonga.com/events</loc>
-  <lastmod>2022-06-30T09:00:47+00:00</lastmod>
-</url>
-
-<url>
-  <loc>https://www.achillesonga.com/achille-songa-cv.pdf</loc>
-  <lastmod>2022-06-30T09:00:47+00:00</lastmod>
+  <loc>https://www.achillesonga.net/events</loc>
+  <lastmod>2022-12-18T19:41:53+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 

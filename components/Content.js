@@ -149,10 +149,7 @@ export default function Content(){
                         <a>Afflatus Africa</a>
                     </Link>. A pan-African organisation creating leaders and helping the youth unveil their potential.</p>
 
-                <h1>I have shared a lot and it is mostly hard for me to share my story. I did my best, this is about my past, and there is a lot unsaid. If you want to stalk me and find out what I hid😁, which I do not suggest; check my social media accounts or visit&nbsp;
-                    <Link href="/blog">
-                        <a target="_blank">my blog</a>
-                    </Link>.
+                <h1>I have shared a lot and it is mostly hard for me to share my story. I did my best, this is about my past, and there is a lot unsaid. If you want to stalk me and find out what I hid😁, which I do not suggest; check my social media accounts.
                 </h1>
 
             </section>
