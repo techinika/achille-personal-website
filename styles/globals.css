@@ -445,3 +445,11 @@ a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.data-header h3 {
+  margin: 0;
+}
+
+.data-list {
+  margin: 0;
+}
