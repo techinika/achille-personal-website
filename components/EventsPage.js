@@ -10,7 +10,7 @@ export const EventsPage = () => {
                     <Link href="https://event.techstars.com/event/ECiij5vmKl">
                         <div className="event">
                             <div>
-                                <a target="_blank">Techstars Startup Weekend Kigali <span className="badge">Upcoming</span></a>
+                                <a target="_blank">Techstars Startup Weekend Kigali <span className="badge">Done</span></a>
                                 <p>Jul 14, 8:00 AM - Jul 16, 11:00 AM GMT+1</p>
                                 <span>Learn how to think, work, and build like a startup in 54 thrilling hours. Over an action-packed three days, you’ll meet the very best mentors, investors, co-founders and sponsors to show you how to get more done faster -- and, maybe even start that business.</span>
                             </div>
