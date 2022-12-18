@@ -1,12 +1,21 @@
+import React from "react";
 import Image from "next/image"
-import me from "../public/AS-PNG.png"
+import me from "../public/songa achille.png";
 import { useRouter } from "next/dist/client/router"
 import VertNav from "./vNav";
+import ExperienceModal from "./modal/experienceModal";
+import { experiences } from "../data/experiences";
 
 export default function HomePage(){
+    const [modalOpen, setModalOpen] = React.useState(false);
+    const [modalData, setModalData] = React.useState([]);
+    const [modalTitle, setModalTitle] = React.useState('')
+
+    
     const router = useRouter();
     return (
         <>
+            {modalOpen && <ExperienceModal title={modalTitle} data={modalData} setOpen={setModalOpen}/>}
             <section>
                 <div className="profile">
                     <div className="imageHolder">
@@ -30,6 +39,21 @@ export default function HomePage(){
                                 }
                             }}>Download my CV</button>
                         </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>Experiences</h2>
+                    <div className="cards">
+                        {experiences ? experiences.map(experience => (
+                            <div className="card" key={experience.id} onClick={() => {
+                                setModalData(experience.roles) 
+                                setModalTitle(experience.title)
+                                setModalOpen(true)
+                            }}>
+                                <h1>At {experience.title}</h1>
+                                <div className="blur"></div>
+                            </div>
+                        )) : <p>No experience</p>}
                     </div>
                 </div>
             </section>
