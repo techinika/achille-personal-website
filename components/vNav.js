@@ -9,9 +9,9 @@ export default function VertNav(){
                     <Link href="/podcasts">
                         <a>Podcasts</a>
                     </Link>
-                    <Link href="/blog">
+                    {/* <Link href="/blog">
                         <a>Blog</a>
-                    </Link>
+                    </Link> */}
                     <Link href="/events">
                         <a>Events</a>
                     </Link>
