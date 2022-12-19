@@ -5,6 +5,7 @@ import { useRouter } from "next/dist/client/router"
 import VertNav from "./vNav";
 import ExperienceModal from "./modal/experienceModal";
 import { experiences } from "../data/experiences";
+import { skills } from "../data/skills";
 
 export default function HomePage(){
     const [modalOpen, setModalOpen] = React.useState(false);
@@ -54,6 +55,16 @@ export default function HomePage(){
                                 <div className="blur"></div>
                             </div>
                         )) : <p>No experience</p>}
+                    </div>
+                </div>
+                <div>
+                    <h2>Skills</h2>
+                    <div className="skill-cards">
+                        {skills ? skills.map(skill => (
+                            <div key={skill.id} className="skill-card">
+                                <div style={{width: `${skill.level}%`, backgroundColor: "#1C4D72", borderRadius: "5px", color: "white", padding: "5px", height: "100%"}}>{skill.skill} ({skill.level}%)</div>
+                            </div>
+                        )) : <p>No skill</p>}
                     </div>
                 </div>
             </section>
