@@ -327,6 +327,7 @@ a:hover {
     display: flex;
     flex-direction: row;
   }
+  
 }
 
 @media (max-width: 500px){
@@ -344,10 +345,12 @@ a:hover {
     display: flex;
     flex-direction: row;
   }
+}
 
+@media (min-width: 500px){
   .cards {
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -451,4 +454,15 @@ a:hover {
 
 .data-list {
   margin: 0;
+}
+
+.skill-cards {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.skill-card {
+  background-color: var(--hover-color);
+  border-radius: 5px;
 }
