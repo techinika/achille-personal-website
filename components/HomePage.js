@@ -35,7 +35,7 @@ export default function HomePage(){
                             }}>Read my Story</button>
                             <button className="btn" onClick={e=>{
                                 e.stopPropagation();
-                                const cv = "https://achillesonga.com/achille-songa-cv.pdf";
+                                const cv = "https://achillesonga.net/achille-songa-cv.pdf";
                                 if (typeof window !== "undefined"){
                                     window.location.href = cv;
                                 }
