@@ -6,6 +6,7 @@ import VertNav from "./vNav";
 import ExperienceModal from "./modal/experienceModal";
 import { experiences } from "../data/experiences";
 import { skills } from "../data/skills";
+import { projects } from "../data/projects";
 
 export default function HomePage(){
     const [modalOpen, setModalOpen] = React.useState(false);
@@ -67,6 +68,16 @@ export default function HomePage(){
                                 <div style={{width: `${skill.level}%`, backgroundColor: "#1C4D72", borderRadius: "5px", color: "white", padding: "5px", height: "100%"}}>{skill.skill} ({skill.level}%)</div>
                             </div>
                         )) : <p>No skill</p>}
+                    </div>
+                </div>
+                <div>
+                    <h2>Projects</h2>
+                    <div className="project-cards">
+                        {projects.length !== 0 ? projects.map(project => (
+                            <div>
+
+                            </div>
+                        )) : <p>No project at time</p>}
                     </div>
                 </div>
             </section>
