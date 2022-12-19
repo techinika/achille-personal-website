@@ -11,12 +11,13 @@ export default function HomePage(){
     const [modalOpen, setModalOpen] = React.useState(false);
     const [modalData, setModalData] = React.useState([]);
     const [modalTitle, setModalTitle] = React.useState('')
+    const [companyLink, setCompanyLink] = React.useState('')
 
     
     const router = useRouter();
     return (
         <>
-            {modalOpen && <ExperienceModal title={modalTitle} data={modalData} setOpen={setModalOpen}/>}
+            {modalOpen && <ExperienceModal title={modalTitle} data={modalData} setOpen={setModalOpen} link={companyLink}/>}
             <section>
                 <div className="profile">
                     <div className="imageHolder">
@@ -49,6 +50,7 @@ export default function HomePage(){
                             <div className="card" key={experience.id} onClick={() => {
                                 setModalData(experience.roles) 
                                 setModalTitle(experience.title)
+                                setCompanyLink(experience.link)
                                 setModalOpen(true)
                             }}>
                                 <h1>At {experience.title}</h1>

@@ -3,6 +3,7 @@ export const experiences = [
     {
         id: 1,
         title: "Techinika",
+        link: "https://techinika.com",
         roles: [
             {
                 role: "Founder, Trainer & Blogger",
@@ -15,6 +16,7 @@ export const experiences = [
     {
         id: 2,
         title: "Andela Rwanda",
+        link: "https://andela.com/engineers/technical-leadership-program-rwanda/",
         roles: [
             {
                 id: 1,
@@ -35,6 +37,7 @@ export const experiences = [
     {
         id: 3,
         title: "AC Group",
+        link: "https://www.acgroup.rw",
         roles: [
             {
                 id: 1,
@@ -48,6 +51,7 @@ export const experiences = [
     {
         id: 5,
         title: "Rujo Rooms",
+        link: "https://www.airbnb.com/rooms/31139156?source_impression_id=p3_1671447211_tKc2%2BrVo9Z99yN0X",
         roles: [
             {
                 id: 1,
@@ -61,6 +65,7 @@ export const experiences = [
     {
         id: 4,
         title: "Afflatus Africa",
+        link: "https://afflatusafrica.org",
         roles: [
             {
                 id: 1,
@@ -81,6 +86,7 @@ export const experiences = [
     {
         id: 5,
         title: "GitStart Community HQ",
+        link: "https://www.gitstart.dev",
         roles: [
             {
                 id: 1,

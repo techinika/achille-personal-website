@@ -1,6 +1,7 @@
+import Link from "next/link";
 
 
-export default function ExperienceModal({title, data, setOpen}){
+export default function ExperienceModal({title, data, setOpen, link}){
     return (
         <div>
             <div className="modal">
@@ -9,7 +10,7 @@ export default function ExperienceModal({title, data, setOpen}){
                
                 <div className="datas">
                     <div className="data-header">
-                        <h2>Experiences at {title}</h2>
+                        <h2>Experiences at <Link href={link}><a target="_blank">{title}</a></Link></h2>
                         <button className="btn" onClick={()=> setOpen(false)}>X</button>
                     </div>
                     {data && data.reverse().map(d => (
