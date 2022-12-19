@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image"
-import me from "../public/songa achille.png";
+import me from "../public/songa-achille.png";
 import { useRouter } from "next/dist/client/router"
 import VertNav from "./vNav";
 import ExperienceModal from "./modal/experienceModal";
@@ -22,7 +22,7 @@ export default function HomePage(){
             <section>
                 <div className="profile">
                     <div className="imageHolder">
-                        <Image src={me} className="profilePic" alt="Cishahayo Songa Achille"/>
+                        <Image src={me} className="profilePic" width={200} height="200" alt="Cishahayo Songa Achille"/>
                         <VertNav/>
                     </div>
                     <div className="profileInfo">
