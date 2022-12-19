@@ -74,7 +74,7 @@ export default function HomePage(){
                     <h2>Projects</h2>
                     <div className="project-cards">
                         {projects.length !== 0 ? projects.map(project => (
-                            <div>
+                            <div key={project.id}>
 
                             </div>
                         )) : <p>No project at time</p>}
