@@ -9,9 +9,9 @@ export default function VertNav(){
                     <Link href="/podcasts">
                         <a>Podcasts</a>
                     </Link>
-                    {/* <Link href="/blog">
-                        <a>Blog</a>
-                    </Link> */}
+                    <Link href="https://www.linkedin.com/newsletters/achille-songa-newsletter-7034443629926432768/">
+                        <a target="_blank">Newsletter</a>
+                    </Link>
                     <Link href="/events">
                         <a>Events</a>
                     </Link>
