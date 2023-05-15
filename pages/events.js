@@ -9,7 +9,7 @@ import { EventsPage } from '../components/EventsPage';
 export default function Events(){
 
     useEffect(()=>{
-        TagManager.initialize({ gtmId: 'G-9VFYEJ4FZB' });
+        TagManager.initialize({ gtmId: 'G-PWV48XHCYQ' });
     },[])
     return (
         <>
