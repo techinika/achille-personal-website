@@ -8,7 +8,7 @@ import TagManager from 'react-gtm-module';
 export default function MyStory() {
 
   useEffect(()=>{
-    TagManager.initialize({ gtmId: 'G-9VFYEJ4FZB' });
+    TagManager.initialize({ gtmId: 'G-PWV48XHCYQ' });
   },[])
 
   return (
