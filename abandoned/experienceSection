@@ -1,0 +1,24 @@
+<div>
+          <h2>Experiences</h2>
+          <div className="cards">
+            {experiences ? (
+              experiences.map((experience) => (
+                <div
+                  className="card"
+                  key={experience.id}
+                  onClick={() => {
+                    setModalData(experience.roles);
+                    setModalTitle(experience.title);
+                    setCompanyLink(experience.link);
+                    setModalOpen(true);
+                  }}
+                >
+                  <h1>At {experience.title}</h1>
+                  <div className="blur"></div>
+                </div>
+              ))
+            ) : (
+              <p>No experience</p>
+            )}
+          </div>
+        </div>
