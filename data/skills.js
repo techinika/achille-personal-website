@@ -17,7 +17,7 @@ export const skills = [
   },
   {
     id: 3,
-    skill: "Public Speaking (Workshops, Lectures, Informative)",
+    skill: "Public Speaking (Workshops, Lectures, Informative, Inspiration)",
     level: 70,
   },
 ];
