@@ -5,12 +5,14 @@ import VertNav from "./Navigation/vNav";
 import { skills } from "../data/skills";
 import { projects } from "../data/projects";
 import Link from "next/link";
+import { useRouter } from "next/dist/client/router";
 
 const imageLoader = ({ src, width, quality }) => {
   return `https://achillesonga.net/${src}?w=${width}&q=${quality || 75}`;
 };
 
 export default function HomePage() {
+  const router = useRouter();
   return (
     <>
       <section>
@@ -45,7 +47,7 @@ export default function HomePage() {
                 className="btn"
                 onClick={(e) => {
                   e.stopPropagation();
-                  //   router.push("/my-story");
+                  router.push("/hire-me");
                 }}
               >
                 Hire Me
