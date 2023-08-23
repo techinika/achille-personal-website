@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import { Nav } from "../components/Navigation/Nav";
 import { Footer } from "../components/Sides/Footer";
 import { Header } from "../components/Sides/Header";
@@ -6,6 +7,18 @@ import { Header } from "../components/Sides/Header";
 export default function Lab() {
   return (
     <>
+      <Head>
+        <title>Achille Songa Lab</title>
+        <meta
+          name="keywords"
+          content="achille songa lab, learn kinyarwanda, perspective, achille songa, Software Developer, Entrepreneur, Public Speaker, Content creator, growth opportunities, lessons learned"
+        ></meta>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <meta
+          name="google-site-verification"
+          content="4Z07RV-1-Qub3aUIvRamziU_UKN2AZRnlyAORUy9tiA"
+        />
+      </Head>
       <Header></Header>
       <section>
         <Nav title="My Lab" />
