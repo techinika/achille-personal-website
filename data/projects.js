@@ -15,4 +15,12 @@ export const projects = [
       "A hub of contents I create to pour my heart out including videos and articles.",
     link: "/lab",
   },
+  {
+    id: 3,
+    name: "My Lovely Africa Podcast",
+    category: "Responsibility to Mother Africa",
+    description:
+      "A podcast I started in 2022 with a purpose of helping African youth understand history of Africa and take a charge in making Africa better.",
+    link: "https://linktr.ee/mylovelyafrica",
+  },
 ];
