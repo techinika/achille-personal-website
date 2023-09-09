@@ -35,10 +35,10 @@ export default function HomePage() {
               creator
             </span>
             <p>
-              {`Founder at Techinika. I am very passionate about empowering people with education, innovation and sustainable future with technology and I love creating stuff that change people's lives. I pour my heart out through well curated writings and speeches, hoping that I can empower some souls with wisdom and inspire them to be the change they need to see.`}
+              {`Founder at Techinika. I am very passionate about empowering people with education, innovation and sustainable future with technology and I love creating products that transform people's lives. I pour my heart out through well curated writings and speeches, hoping that I can empower some souls with wisdom and inspire them to be the change they need to see.`}
               <br></br>
               <hr></hr>
-              <b>{`Hire me to make a website for you, deliver a powerful speech or technology workshop at your next event, or to publish an inspiring articles on your platform.`}</b>
+              <b>{`Hire me to make a website for you, deliver a powerful speech or technology workshop at your next event, to upskill your team or to publish an inspiring articles on your platform.`}</b>
               <br></br>
               <br></br>
             </p>
@@ -76,12 +76,8 @@ export default function HomePage() {
                   <div
                     style={{
                       width: `${skill.level}%`,
-                      backgroundColor: "#1C4D72",
-                      borderRadius: "5px",
-                      color: "white",
-                      padding: "5px",
-                      height: "100%",
                     }}
+                    className="skill"
                   >
                     {skill.skill} ({skill.level}%)
                   </div>
