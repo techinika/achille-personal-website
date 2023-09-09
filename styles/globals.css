@@ -284,6 +284,14 @@ a:hover {
   padding: 10px;
 }
 
+.skill {
+  background-color: #1C4D72;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  height: 100%;
+}
+
 @media (max-width: 900px){
   section {
     width: 90%;
@@ -311,6 +319,8 @@ a:hover {
   .vnav {
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    padding: 10px auto !important;
   }
 }
 
@@ -326,6 +336,24 @@ a:hover {
   .vnav {
     display: flex;
     flex-direction: row;
+  }
+
+  .skill {
+    text-align: center;
+    line-height: 1.5;
+    padding: 15px;
+    width: 100% !important;
+  }
+
+  .project-cards {
+    display: grid;
+    grid-template-columns: 100% !important;
+    gap: 10px;
+  }
+
+  .project-card .desc {
+    color: white;
+    line-height: 1.5;
   }
   
 }
@@ -345,22 +373,12 @@ a:hover {
     display: flex;
     flex-direction: row;
   }
-  .project-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-  }
 }
 
 @media (min-width: 500px){
   .cards {
     display: flex;
     flex-wrap: wrap;
-  }
-  .project-cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
   }
 }
 
