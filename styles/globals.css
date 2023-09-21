@@ -336,6 +336,7 @@ a:hover {
   .vnav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .skill {
@@ -372,6 +373,7 @@ a:hover {
   .vnav {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
