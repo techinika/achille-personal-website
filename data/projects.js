@@ -23,4 +23,12 @@ export const projects = [
       "A podcast I started in 2022 with a purpose of helping African youth understand history of Africa and take a charge in making Africa better.",
     link: "https://linktr.ee/mylovelyafrica",
   },
+  {
+    id: 4,
+    name: "Ikirango.rw",
+    category: "A side business",
+    description:
+      "A local news platform I started with a friend to deliver news to the public.",
+    link: "https://ikirango.rw",
+  },
 ];
