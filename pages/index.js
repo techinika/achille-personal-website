@@ -12,10 +12,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Cishahayo Songa Achille - Entrepreneur</title>
+        <title>{`Cishahayo Songa Achille - Tech enthusiast, Entrepreneur, Speaker`}</title>
         <meta
           name="keywords"
           content="Cishahayo Songa Achille, achille songa, Software Developer, Entrepreneur, Public Speaker, Content creator"
+        ></meta>
+         <meta
+          name="description"
+          content="Achille Songa is a professional web developer, who has a passion in solving society challenges and building people's capacity through inspiring contents and education."
         ></meta>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta

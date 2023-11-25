@@ -13,6 +13,10 @@ export default function Lab() {
           name="keywords"
           content="achille songa lab, learn kinyarwanda, perspective, achille songa, Software Developer, Entrepreneur, Public Speaker, Content creator, growth opportunities, lessons learned"
         ></meta>
+        <meta
+          name="description"
+          content="Achille Songa is passionate about creating and sharing contents that inspire and open up his reader's mind and lead them to being the best they can be."
+        ></meta>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta
           name="google-site-verification"
