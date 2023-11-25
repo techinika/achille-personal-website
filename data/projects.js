@@ -25,6 +25,14 @@ export const projects = [
   },
   {
     id: 4,
+    name: "Rwanda Technology Community",
+    category: "Volunteering",
+    description:
+      "A community we are building to give technology and innovation enthusiasts to come together, learn from each other and solve society problems at scale.",
+    link: "https://x.com/RwTechCommunity",
+  },
+  {
+    id: 5,
     name: "Ikirango.rw",
     category: "A side business",
     description:
