@@ -1,3 +1,4 @@
+
 export const experiences = [
     {
         id: 1,
@@ -7,6 +8,7 @@ export const experiences = [
                 id: 1,
                 company: "Progress MiH",
                 website: "http://progressmih.com",
+                logo: "https://media.licdn.com/dms/image/C4E0BAQGGjopqN8uaTQ/company-logo_200_200/0/1662050328908?e=2147483647&v=beta&t=uMQoyUA24s24x0m4rt4qkSyjjgbIto7qwhzDrTMOMmo",
                 positions: [
                     {
                         id: 1,
@@ -33,6 +35,7 @@ export const experiences = [
             {
                 id: 2,
                 company: "Elabman Ltd",
+                logo: "https://icons.veryicon.com/png/o/business/oa-attendance-icon/company-27.png",
                 website: "#",
                 positions: [
                     {
@@ -61,6 +64,7 @@ export const experiences = [
             {
                 id: 2,
                 company: "Techinika.",
+                logo: "https://z-p3-scontent.fkgl3-1.fna.fbcdn.net/v/t39.30808-1/273817178_1062996807578984_7800044232036935313_n.jpg?stp=dst-jpg_p320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEEIlWzipYEqE4AnbrGANM8MO5DOmSH6Xkw7kM6ZIfpeTFQS4oiwFsvi2isfIqTKqtdY24EnH7ULfk4IWOzEg2J&_nc_ohc=MQLHtFbdTWQAX-pAae4&_nc_pt=5&_nc_ht=z-p3-scontent.fkgl3-1.fna&oh=00_AfCN_3xtguNiaNJg2Wk5DcjmTk8VZM59g3kOkSvGfegzdw&oe=656A4B18",
                 website: "http://techinika.co.rw",
                 positions: [
                     {
@@ -88,6 +92,7 @@ export const experiences = [
             {
                 id: 2,
                 company: "My Personal Platforms",
+                logo: "https://yt3.googleusercontent.com/G6a4deeXmlv4jiz009AZ_JRrkwX-t_SYnq_dJ6hTa6VBn6oOysqqFDr9bqUsyHQE5F-ys7bJ=s900-c-k-c0x00ffffff-no-rj",
                 website: "#",
                 positions: [
                     {
