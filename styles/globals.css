@@ -518,3 +518,80 @@ a:hover {
   padding: 10px;
   border: 1px solif white;
 }
+
+/* Timeline */
+
+.timeline {
+	width: 95%;
+  margin: 0 auto;
+	max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0px 30px 15px 30px;
+	border-left: 2px solid var(--main-color);
+}
+
+.timeline-item {
+	display: flex;
+	gap: 24px;
+  align-items: center;
+  background-color: var(--hover-color);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.timeline-item-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-left: -52px;
+	flex-shrink: 0;
+	overflow: hidden;
+	box-shadow: 0 0 0 6px #fff;
+	svg {
+		width: 20px;
+		height: 20px;
+	}
+
+	&.faded-icon {
+		background-color: var(--c-grey-100);
+		color: var(--c-grey-400);
+	}
+
+	&.filled-icon {
+		background-color: var(--c-blue-500);
+		color: #fff;
+	}
+}
+
+.avatar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	overflow: hidden;
+	aspect-ratio: 1 / 1;
+	flex-shrink: 0;
+	width: 40px;
+	height: 40px;
+	&.small {
+		width: 28px;
+		height: 28px;
+	}
+
+	img {
+		object-fit: cover;
+	}
+}
+
+.company-data {
+	width: 100%;
+}
+
+.avatar-image {
+  display: block;
+	max-width: 100%;
+}

@@ -12,6 +12,9 @@ export default function VertNav() {
           <Link href="/lab">
             <a>Lab</a>
           </Link>
+          <Link href="/experience">
+            <a>Experience</a>
+          </Link>
           <Link href="https://calendly.com/achille-songa/meet-achille-songa">
             <a target="_blank">Book a chat with me</a>
           </Link>

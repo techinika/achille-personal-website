@@ -10,10 +10,10 @@ export const Nav = ({ title }) => {
           className="backBtn"
           onClick={(e) => {
             e.stopPropagation();
-            router.back();
+            router.push("/");
           }}
         >
-          🔙
+          Home
         </p>
         <p>{title}</p>
       </div>

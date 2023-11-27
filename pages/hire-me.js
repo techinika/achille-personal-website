@@ -1,3 +1,4 @@
+import Head from "next/head";
 import HireMeForm from "../components/Forms/hireMe";
 import { Nav } from "../components/Navigation/Nav";
 import { Footer } from "../components/Sides/Footer";
@@ -6,8 +7,8 @@ import { Header } from "../components/Sides/Header";
 export default function HireMe() {
   return (
     <>
-      <Header>
-      <title>{`Hire Cishahayo Songa Achille for your business`}</title>
+      <Head>
+      <title>Hire Cishahayo Songa Achille for your business</title>
         <meta
           name="keywords"
           content="Hire Cishahayo Songa Achille, hire a professional, business, hire for your business, hire a speaker, hire a Content creator, hire a software developer, hire business advisor, hire an it consultant, hire a professional ICT expert"
@@ -27,7 +28,8 @@ export default function HireMe() {
           href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap"
           rel="stylesheet"
         />
-      </Header>
+      </Head>
+      <Header></Header>
       <section>
         <Nav title="Hire Me For You" />
         <HireMeForm />
