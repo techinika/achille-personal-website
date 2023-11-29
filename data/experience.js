@@ -54,6 +54,88 @@ export const experiences = [
                         link: "#"
                     }
                 ]
+            },
+            {
+                id: 2,
+                company: "GitStart  Community",
+                logo: "https://kibo.school/wp-content/uploads/2022/06/GitStart-Default-logo.png",
+                website: "https://gitstart.com/",
+                positions: [
+                    {
+                        id: 1,
+                        position: "Frontend Developer",
+                        time: "Augugst 2022 - October 2022",
+                        employment: "Internship",
+                        technology: "JavaScript (Node JS), GitStart Platform, Zoom, GitHub",
+                        description: "GitStart is code as service platform. While working with them, I was able to contribute to open source projects and learn how open source projects work."
+                    }
+                ],
+                projects: [
+                    {
+                        id: 1,
+                        project: "Metabase",
+                        link: "https://www.metabase.com/"
+                    }
+                ]
+            },
+            {
+                id: 2,
+                company: "The Gym Rwanda",
+                logo: "https://media.licdn.com/dms/image/C4D0BAQELh0Luy6vd2g/company-logo_200_200/0/1670497927920/the_gym_software_development_trainee_program_logo?e=2147483647&v=beta&t=s1GQoX2KbuR7r4pyp_tLexrOKUyqBWg2zKZB4rGtKHM",
+                website: "https://thegym-rwanda.com/",
+                positions: [
+                    {
+                        id: 1,
+                        position: "Code + Design Camp Coach",
+                        time: "September 2022",
+                        employment: "Freelance",
+                        technology: "Thunkable No Code Tool, Figma, Kanban Project Management Template",
+                        description: "CDC is a program where participants spend days identifying problems and designing working software prototypes to solve them. I was privileged to participate as a participant, and later as a coach."
+                    }
+                ],
+                projects: [
+                    {
+                        id: 1,
+                        project: "SALID Career Guidance",
+                        link: "https://docs.google.com/presentation/d/1SxG7Tn4D3PpL-4_fC4zvsHwaLqi3JzyA_UdFW3kZvH8/edit?usp=sharing"
+                    }
+                ]
+            },
+            {
+                id: 2,
+                company: "Andela Rwanda",
+                logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcFcbGk2WrEvA92-Kd44kauSIq8UCEL6Fzp6Z8LlWhbs_IjTBgxViyVEcBSipCQPOYsuI&usqp=CAU",
+                website: "https://rwanda.andela.com/",
+                positions: [
+                    {
+                        id: 1,
+                        position: "Technical Team Lead",
+                        time: "February 2022 - August 2022",
+                        employment: "Contract",
+                        technology: "JavaScript (Node JS, React JS), Firebase, Trello, GitHub, Zoom",
+                        description: "For this period, I was working with a team of 10 engineers helping them with their learning. I was in charge of conducting standup calls, following up on project changes, and addressing issues engineers had."
+                    },
+                    {
+                        id: 2,
+                        position: "Engineering Trainee",
+                        time: "October 2020 - August 2021",
+                        employment: "Training",
+                        technology: "JavaScript (Node JS, React JS), Firebase, Trello, GitHub, Zoom",
+                        description: "This is the moment when I turned into an engineer. With the guidance and support from engineers, we were in a work like environment where we learn how to build software. I gained high experience and view into the work environment."
+                    }
+                ],
+                projects: [
+                    {
+                        id: 1,
+                        project: "Barefoot Nomad",
+                        link: "#"
+                    },
+                    {
+                        id: 2,
+                        project: "Phantom",
+                        link: "#"
+                    },
+                ]
             }
         ]
     },
