@@ -60,12 +60,22 @@ export default function Home() {
                                             {company.positions && company.positions.map(position => (
                                                 <div key={position.id}>
                                                     <p><b>{position.position}</b></p>
-                                                    <p><small><i>{position.employment} - {position.time}</i></small></p>
+                                                    <p><small><i>{position.employment} | {position.time}</i></small></p>
                                                     <p>{position.description}</p>
                                                     <p><small><b>Technologies: {position.technology}</b></small></p>
                                                     <hr></hr>
                                                 </div>
                                             ))}
+                                            <div>
+                                              <p><b>Projects I worked on: </b></p>
+                                              <div className="project-list">
+                                                {company.projects.length > 0 && company.projects.map(project => (
+                                                  <div key={project.id} className="project">
+                                                    <Link href={project.link}><a target={project.link !== "#" && "_blank"}>{project.project}</a></Link>
+                                                  </div>
+                                                ))}
+                                              </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

@@ -595,3 +595,22 @@ a:hover {
   display: block;
 	max-width: 100%;
 }
+
+.project-list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+.project {
+  padding: 2px 30px;
+  background-color: var(--main-color);
+  color: var(--hover-color);
+  border-radius: 50px;
+  font-size: x-small;
+}
+
+.project a {
+  color: var(--hover-color);
+}
