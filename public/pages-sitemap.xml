@@ -24,5 +24,12 @@
     <priority><![CDATA[0.7]]></priority>
   </url>
 
+  <url>
+    <loc><![CDATA[https://achillesonga.net/experience]]></loc>
+    <lastmod><![CDATA[2023-11-30T18:35:53+00:00]]></lastmod>
+    <changefreq><![CDATA[weekly]]></changefreq>
+    <priority><![CDATA[0.7]]></priority>
+  </url>
+
 
 </urlset>
