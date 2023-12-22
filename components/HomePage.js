@@ -8,7 +8,7 @@ import Link from "next/link";
 import { useRouter } from "next/dist/client/router";
 
 const imageLoader = ({ src, width, quality }) => {
-  return `https://achillesonga.net/${src}?w=${width}&q=${quality || 75}`;
+  return `https://achillesonga.com/${src}?w=${width}&q=${quality || 75}`;
 };
 
 export default function HomePage() {
@@ -56,7 +56,7 @@ export default function HomePage() {
                 className="btn"
                 onClick={(e) => {
                   e.stopPropagation();
-                  const cv = "https://achillesonga.net/achille-songa-cv.pdf";
+                  const cv = "https://achillesonga.com/achille-songa-cv.pdf";
                   if (typeof window !== "undefined") {
                     window.location.href = cv;
                   }
