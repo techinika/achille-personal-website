@@ -23,12 +23,17 @@ export const experiences = [
                     {
                         id: 1,
                         project: "Transparency International Ifate Platform",
-                        link: "#"
+                        link: "http://ifatetirwanda.org"
                     },
                     {
                         id: 2,
                         project: "BOA Logistics",
                         link: "#"
+                    },
+                    {
+                        id: 3,
+                        project: "YAHealth",
+                        link: "https://yahealth.rw/home"
                     }
                 ]
             },
@@ -51,7 +56,7 @@ export const experiences = [
                     {
                         id: 1,
                         project: "RTB Curricula Platform",
-                        link: "#"
+                        link: "http://curricula.rtb.gov.rw:7179/"
                     }
                 ]
             },
