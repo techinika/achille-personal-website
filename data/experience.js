@@ -146,7 +146,7 @@ export const experiences = [
             {
                 id: 2,
                 company: "Techinika.",
-                logo: "https://z-p3-scontent.fkgl3-1.fna.fbcdn.net/v/t39.30808-1/273817178_1062996807578984_7800044232036935313_n.jpg?stp=dst-jpg_p320x320&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEEIlWzipYEqE4AnbrGANM8MO5DOmSH6Xkw7kM6ZIfpeTFQS4oiwFsvi2isfIqTKqtdY24EnH7ULfk4IWOzEg2J&_nc_ohc=MQLHtFbdTWQAX-pAae4&_nc_pt=5&_nc_ht=z-p3-scontent.fkgl3-1.fna&oh=00_AfCN_3xtguNiaNJg2Wk5DcjmTk8VZM59g3kOkSvGfegzdw&oe=656A4B18",
+                logo: "/techinika-logo.jpeg",
                 website: "http://techinika.co.rw",
                 positions: [
                     {
