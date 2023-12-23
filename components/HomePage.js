@@ -89,7 +89,7 @@ export default function HomePage() {
           </div>
         </div>
         <div>
-          <h2>Projects</h2>
+          <h2>My Organizations</h2>
           <div className="project-cards">
             {projects.length !== 0 ? (
               projects.map((project) => (
