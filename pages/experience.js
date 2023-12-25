@@ -15,19 +15,19 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{`Cishahayo Songa Achille - Tech enthusiast, Entrepreneur, Speaker`}</title>
+        <title>{`Experince of Cishahayo Songa Achille`}</title>
         <meta
           name="keywords"
           content="Cishahayo Songa Achille, achille songa, Software Developer, Entrepreneur, Public Speaker, Content creator"
         ></meta>
          <meta
           name="description"
-          content="Achille Songa is a professional web developer, who has a passion in solving society challenges and building people's capacity through inspiring contents and education."
+          content="With experiences ranging from fostware development, content development and leadership, he is the best candidate for your project."
         ></meta>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta
           name="google-site-verification"
-          content="4Z07RV-1-Qub3aUIvRamziU_UKN2AZRnlyAORUy9tiA"
+          content="lzuO2DVXYYrKZZY1nLrFSPHa2AQkaY0pRWIPHJ9wjW4"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
@@ -63,11 +63,12 @@ export default function Home() {
                                                     <p><small><i>{position.employment} | {position.time}</i></small></p>
                                                     <p>{position.description}</p>
                                                     <p><small><b>Technologies: {position.technology}</b></small></p>
-                                                    <hr></hr>
+                                                    {/* <hr></hr> */}
                                                 </div>
                                             ))}
                                             <div>
-                                              <p><b>Projects I worked on: </b></p>
+                                              {company.projects.length > 0 && <hr></hr>}
+                                              {company.projects.length > 0 &&<p><b>Projects I worked on: </b></p>}
                                               <div className="project-list">
                                                 {company.projects.length > 0 && company.projects.map(project => (
                                                   <div key={project.id} className="project">
