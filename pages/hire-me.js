@@ -8,7 +8,7 @@ export default function HireMe() {
   return (
     <>
       <Head>
-      <title>Hire Cishahayo Songa Achille for your business</title>
+      <title>Hire Cishahayo Songa Achille For Your Business</title>
         <meta
           name="keywords"
           content="Hire Cishahayo Songa Achille, hire a professional, business, hire for your business, hire a speaker, hire a Content creator, hire a software developer, hire business advisor, hire an it consultant, hire a professional ICT expert"
@@ -20,7 +20,7 @@ export default function HireMe() {
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta
           name="google-site-verification"
-          content="4Z07RV-1-Qub3aUIvRamziU_UKN2AZRnlyAORUy9tiA"
+          content="lzuO2DVXYYrKZZY1nLrFSPHa2AQkaY0pRWIPHJ9wjW4"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />

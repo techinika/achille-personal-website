@@ -61,7 +61,7 @@ export const experiences = [
                 ]
             },
             {
-                id: 2,
+                id: 3,
                 company: "GitStart  Community",
                 logo: "https://kibo.school/wp-content/uploads/2022/06/GitStart-Default-logo.png",
                 website: "https://gitstart.com/",
@@ -84,7 +84,7 @@ export const experiences = [
                 ]
             },
             {
-                id: 2,
+                id: 4,
                 company: "The Gym Rwanda",
                 logo: "https://media.licdn.com/dms/image/C4D0BAQELh0Luy6vd2g/company-logo_200_200/0/1670497927920/the_gym_software_development_trainee_program_logo?e=2147483647&v=beta&t=s1GQoX2KbuR7r4pyp_tLexrOKUyqBWg2zKZB4rGtKHM",
                 website: "https://thegym-rwanda.com/",
@@ -107,7 +107,7 @@ export const experiences = [
                 ]
             },
             {
-                id: 2,
+                id: 5,
                 company: "Andela Rwanda",
                 logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcFcbGk2WrEvA92-Kd44kauSIq8UCEL6Fzp6Z8LlWhbs_IjTBgxViyVEcBSipCQPOYsuI&usqp=CAU",
                 website: "https://rwanda.andela.com/",
@@ -149,7 +149,7 @@ export const experiences = [
         experience: "Content Development",
         companies: [
             {
-                id: 2,
+                id: 1,
                 company: "Techinika.",
                 logo: "/techinika-logo.jpeg",
                 website: "http://techinika.co.rw",
@@ -233,6 +233,29 @@ export const experiences = [
                     }
                 ]
             }
+        ]
+    },
+    {
+        id: 3,
+        experience: "Leadership & Management",
+        companies: [
+            {
+                id: 1,
+                company: "Techinika.",
+                logo: "/techinika-logo.jpeg",
+                website: "http://techinika.co.rw",
+                positions: [
+                    {
+                        id: 1,
+                        position: "Founder & Managing Director",
+                        time: "June 2020 - Present",
+                        employment: "Full-time",
+                        technology: "WhatsApp business communications, Trello, Webmail, Google Calendar, Google Meet, etc",
+                        description: "Since our company's inception in 2020, I have been leading out team as we work towards helping Rwandans and Africans become tech savvy."
+                    }
+                ],
+                projects: []
+            },
         ]
     },
 ]
