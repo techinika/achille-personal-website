@@ -16,14 +16,6 @@ export const projects = [
     link: "/lab",
   },
   {
-    id: 3,
-    name: "My Lovely Africa Podcast",
-    category: "Responsibility to Mother Africa",
-    description:
-      "A podcast I started in 2022 with a purpose of helping African youth understand history of Africa and take a charge in making Africa better.",
-    link: "https://linktr.ee/mylovelyafrica",
-  },
-  {
     id: 4,
     name: "Rwanda Technology Community",
     category: "Volunteering",
@@ -33,10 +25,10 @@ export const projects = [
   },
   {
     id: 5,
-    name: "Ikirango.rw",
+    name: "Kiny.Study",
     category: "A side business",
     description:
-      "A local news platform I started with a friend to deliver news to the public.",
-    link: "https://ikirango.rw",
+      "A project to help non-Kinyarwanda speakers to learn how to speak Kinyarwanda.",
+    link: "https://kiny.study",
   },
 ];
