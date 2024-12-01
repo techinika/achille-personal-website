@@ -15,6 +15,9 @@ export default function VertNav() {
           <Link href="/experience">
             <a>Experience</a>
           </Link>
+     <Link href="https://buymeacoffee.com/songa">
+            <a target="_blank">Buy Me a Coffee</a>
+          </Link>
         </div>
       </div>
     </>
