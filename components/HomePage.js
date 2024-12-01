@@ -31,14 +31,19 @@ export default function HomePage() {
           <div className="profileInfo">
             <h1>Cishahayo Songa Achille</h1>
             <span>
-              Software Developer | Entrepreneur | Public Speaker | Content
-              creator
+              Founder of Techinika | Helps you acquire Digital Skills | Builds Software Solutions, Businesses & Communities | Write & Speak to Pass on & Inspire
             </span>
             <p>
-              {`Founder at Techinika. I am very passionate about empowering people with education, innovation and sustainable future with technology and I love creating products that transform people's lives. I pour my heart out through well curated writings and speeches, hoping that I can empower some souls with wisdom and inspire them to be the change they need to see.`}
+              {`In 2017, inspired by YouTube, I embarked on a journey to learn web development with the dream of creating a platform like YouTube one day. Over the years, I gained extensive knowledge about web technologies leading me to become a software engineer. In 2020, I founded Techinika, a learning platform to help learning institutions monetize and digitize their services and use it to help people learn in their native languages.`}
+              <br></br>
+                {`Alongside my tech journey, I create content on YouTube and Social Media platforms (LinkedIn, Facebook, etc) to teach Kinyarwanda, my native language and share lessons I learned over the years. This passion led to the formation of a community for Kinyarwanda learners, where I share resources and help non-Kinyarwanda speakers to speak Kinyarwanda.`}
+              <br></br>
+                {`I love seeing youth taking charge and build solutions, for this reason, I volunteer sometimes to help causes I believe in. This led me to co-founding an organization that is empowering the next generation of TVET students with communication and leadership skills; I volunteered for UNLEASH Rwanda to support 800+ talents to solve real-world problems, I volunteer in different tech communities to bring tech people together, and I have started building the Rwanda Technology Community through Techinika. `}
+              <br></br>
+                {`In my free time, I enjoy writing, singing (alone), walking, engaging in meaningful discussions, and watching movies and documentaries. Interestingly, I once aspired to become a priest, the universe had a different path for me.`}
               <br></br>
               <hr></hr>
-              <b>{`Hire me to make a website for you, deliver a powerful speech or technology workshop at your next event, to upskill your team or to publish an inspiring articles on your platform.`}</b>
+              <b>{`I am passionate about empowering students, building businesses, digital skills development, writing opportunities, partnerships, speaking engagements, and fostering conversations. Let us connect.`}</b>
               <br></br>
               <br></br>
             </p>
