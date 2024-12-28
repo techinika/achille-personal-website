@@ -59,7 +59,7 @@ export const experiences = [
           {
             id: 1,
             project: "RTB Curricula Platform",
-            link: "http://curricula.rtb.gov.rw:7179/",
+            link: "http://curricula.rtb.gov.rw/",
           },
         ],
       },
