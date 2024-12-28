@@ -20,7 +20,7 @@ export default function Home() {
           name="keywords"
           content="Cishahayo Songa Achille, achille songa, Software Developer, Entrepreneur, Public Speaker, Content creator"
         ></meta>
-         <meta
+        <meta
           name="description"
           content="With experiences ranging from fostware development, content development and leadership, he is the best candidate for your project."
         ></meta>
@@ -40,54 +40,108 @@ export default function Home() {
       <section>
         <Nav title="Experience" />
         <div>
-            {experiences.length > 0 ? experiences.map(experience => {
+          {experiences.length > 0 ? (
+            experiences
+              .sort((a, b) => b.id - a.id)
+              .map((experience) => {
                 return (
-                    <div key={experience.id}>
-                        <h2>{experience.experience}</h2>
-                        <div className="timeline">
-                            {experience.companies && experience.companies.map(company => (
-                                <div key={company.id} className="timeline-item">
-                                    <span className="timeline-item-icon | avatar-icon">
-                                        <i className="avatar">
-                                            <img className="avatar-image" src={company.logo} />
-                                        </i>
-                                    </span>
-                                    <div className="company-data">
-                                        <Link href={company.website !== "#" ? company.website : "#"}>
-                                            <a target={company.website !== "#" ? "_blank" : null}><h4>{company.company}</h4></a>
-                                        </Link>
-                                        <div>
-                                            {company.positions && company.positions.map(position => (
-                                                <div key={position.id}>
-                                                    <p><b>{position.position}</b></p>
-                                                    <p><small><i>{position.employment} | {position.time}</i></small></p>
-                                                    <p>{position.description}</p>
-                                                    <p><small><b>Technologies: {position.technology}</b></small></p>
-                                                    {/* <hr></hr> */}
-                                                </div>
-                                            ))}
-                                            <div>
-                                              {company.projects.length > 0 && <hr></hr>}
-                                              {company.projects.length > 0 &&<p><b>Projects I worked on: </b></p>}
-                                              <div className="project-list">
-                                                {company.projects.length > 0 && company.projects.map(project => (
-                                                  <div key={project.id} className="project">
-                                                    <Link href={project.link}><a target={project.link !== "#" && "_blank"}>{project.project}</a></Link>
-                                                  </div>
-                                                ))}
-                                              </div>
-                                            </div>
-                                        </div>
+                  <div key={experience.id}>
+                    <h2>{experience.experience}</h2>
+                    <div className="timeline">
+                      {experience.companies &&
+                        experience.companies.map((company) => (
+                          <div key={company.id} className="timeline-item">
+                            <span className="timeline-item-icon | avatar-icon">
+                              <i className="avatar">
+                                <img
+                                  className="avatar-image"
+                                  src={company.logo}
+                                />
+                              </i>
+                            </span>
+                            <div className="company-data">
+                              <Link
+                                href={
+                                  company.website !== "#"
+                                    ? company.website
+                                    : "#"
+                                }
+                              >
+                                <a
+                                  target={
+                                    company.website !== "#" ? "_blank" : null
+                                  }
+                                >
+                                  <h4>{company.company}</h4>
+                                </a>
+                              </Link>
+                              <div>
+                                {company.positions &&
+                                  company.positions.map((position) => (
+                                    <div key={position.id}>
+                                      <p>
+                                        <b>{position.position}</b>
+                                      </p>
+                                      <p>
+                                        <small>
+                                          <i>
+                                            {position.employment} |{" "}
+                                            {position.time}
+                                          </i>
+                                        </small>
+                                      </p>
+                                      <p>{position.description}</p>
+                                      <p>
+                                        <small>
+                                          <b>
+                                            Technologies: {position.technology}
+                                          </b>
+                                        </small>
+                                      </p>
+                                      {/* <hr></hr> */}
                                     </div>
+                                  ))}
+                                <div>
+                                  {company.projects.length > 0 && <hr></hr>}
+                                  {company.projects.length > 0 && (
+                                    <p>
+                                      <b>Projects I worked on: </b>
+                                    </p>
+                                  )}
+                                  <div className="project-list">
+                                    {company.projects.length > 0 &&
+                                      company.projects.map((project) => (
+                                        <div
+                                          key={project.id}
+                                          className="project"
+                                        >
+                                          <Link href={project.link}>
+                                            <a
+                                              target={
+                                                project.link !== "#" && "_blank"
+                                              }
+                                            >
+                                              {project.project}
+                                            </a>
+                                          </Link>
+                                        </div>
+                                      ))}
+                                  </div>
                                 </div>
-                            ))}
-                        </div>
+                              </div>
+                            </div>
+                          </div>
+                        ))}
                     </div>
-                )
-            }) : <p>No experience!</p>}
+                  </div>
+                );
+              })
+          ) : (
+            <p>No experience!</p>
+          )}
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </>
   );
 }

@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap");
 
 :root {
-  --main-color: #1C4D72;
-  --hover-color: #C2E2C3;
+  --main-color: #1c4d72;
+  --hover-color: #c2e2c3;
 }
 
 * {
@@ -96,7 +96,6 @@ a:hover {
   border-radius: 10px;
   flex: 1;
   width: 100%;
-  
 }
 
 .profileInfo {
@@ -188,7 +187,8 @@ a:hover {
   border-radius: 5px;
 }
 
-.event a, p {
+.event a,
+p {
   margin: 0;
 }
 
@@ -230,7 +230,7 @@ a:hover {
 
 .article p {
   font-size: smaller;
-  font-style:oblique;
+  font-style: oblique;
 }
 
 .articleData {
@@ -285,28 +285,28 @@ a:hover {
 }
 
 .skill {
-  background-color: #1C4D72;
+  background-color: #1c4d72;
   border-radius: 5px;
   color: white;
   padding: 5px;
   height: 100%;
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
   section {
     width: 90%;
     margin: -30% auto 0 auto;
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   section {
     width: 90%;
     margin: -30% auto 0 auto;
   }
 }
 
-@media (max-width: 700px){
+@media (max-width: 700px) {
   section {
     width: 90%;
     margin: -40% auto 0 auto;
@@ -324,7 +324,7 @@ a:hover {
   }
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
   section {
     width: 90%;
     margin: -40% auto 0 auto;
@@ -356,10 +356,9 @@ a:hover {
     color: white;
     line-height: 1.5;
   }
-  
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
   section {
     width: 90%;
     margin: -60% auto 0 auto;
@@ -377,7 +376,7 @@ a:hover {
   }
 }
 
-@media (min-width: 500px){
+@media (min-width: 500px) {
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -391,7 +390,7 @@ a:hover {
 }
 
 .card {
-  background-color: #1C4D72;
+  background-color: #1c4d72;
   background-position: left;
   background-repeat: no-repeat;
   text-align: center;
@@ -406,7 +405,7 @@ a:hover {
 }
 
 .card:hover {
-  background-color: #1C4D72;
+  background-color: #1c4d72;
   padding: 10px;
 }
 
@@ -426,7 +425,7 @@ a:hover {
 .card h1 {
   padding: 5px;
   margin: 0;
-  color:#C2E2C3;
+  color: #c2e2c3;
 }
 
 .fullScreen {
@@ -506,7 +505,8 @@ a:hover {
 }
 
 .project-card h2 {
-  padding: 0px; margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .project-card .desc {
@@ -522,18 +522,18 @@ a:hover {
 /* Timeline */
 
 .timeline {
-	width: 95%;
+  width: 98%;
   margin: 0 auto;
-	max-width: 100%;
-	display: flex;
-	flex-direction: column;
-	padding: 0px 30px 15px 30px;
-	border-left: 2px solid var(--main-color);
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 8px 15px 30px;
+  border-left: 2px solid var(--main-color);
 }
 
 .timeline-item {
-	display: flex;
-	gap: 24px;
+  display: flex;
+  gap: 24px;
   align-items: center;
   background-color: var(--hover-color);
   margin-bottom: 20px;
@@ -541,59 +541,66 @@ a:hover {
 }
 
 .timeline-item-icon {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	margin-left: -52px;
-	flex-shrink: 0;
-	overflow: hidden;
-	box-shadow: 0 0 0 6px #fff;
-	svg {
-		width: 20px;
-		height: 20px;
-	}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: -52px;
+  flex-shrink: 0;
+  overflow: hidden;
+  box-shadow: 0 0 0 6px #fff;
+  svg {
+    width: 20px;
+    height: 20px;
+  }
 
-	&.faded-icon {
-		background-color: var(--c-grey-100);
-		color: var(--c-grey-400);
-	}
+  &.faded-icon {
+    background-color: var(--c-grey-100);
+    color: var(--c-grey-400);
+  }
 
-	&.filled-icon {
-		background-color: var(--c-blue-500);
-		color: #fff;
-	}
+  &.filled-icon {
+    background-color: var(--c-blue-500);
+    color: #fff;
+  }
 }
 
 .avatar {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	overflow: hidden;
-	aspect-ratio: 1 / 1;
-	flex-shrink: 0;
-	width: 40px;
-	height: 40px;
-	&.small {
-		width: 28px;
-		height: 28px;
-	}
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  &.small {
+    width: 28px;
+    height: 28px;
+  }
 
-	img {
-		object-fit: cover;
-	}
+  img {
+    object-fit: cover;
+  }
 }
 
 .company-data {
-	width: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.company-data p,
+b,
+span {
+  padding: 0px 10px 0px 0px;
 }
 
 .avatar-image {
   display: block;
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .project-list {
@@ -601,6 +608,7 @@ a:hover {
   flex-direction: row;
   gap: 15px;
   padding: 10px 0;
+  flex-wrap: wrap;
 }
 
 .project {
