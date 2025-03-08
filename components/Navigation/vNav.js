@@ -15,8 +15,16 @@ export default function VertNav() {
           <Link href="/experience">
             <a>Experience</a>
           </Link>
-     <Link href="https://buymeacoffee.com/songa">
+          <Link href="https://buymeacoffee.com/songa">
             <a target="_blank">Buy Me a Coffee</a>
+          </Link>
+
+          <Link
+            className="libutton"
+            href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=achillesonga"
+            target="_blank"
+          >
+            Follow on LinkedIn
           </Link>
         </div>
       </div>

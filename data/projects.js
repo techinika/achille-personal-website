@@ -16,19 +16,11 @@ export const projects = [
     link: "/lab",
   },
   {
-    id: 4,
-    name: "Rwanda Technology Community",
-    category: "Volunteering",
-    description:
-      "A community we are building to give technology and innovation enthusiasts to come together, learn from each other and solve society problems at scale.",
-    link: "https://x.com/RwTechCommunity",
-  },
-  {
     id: 5,
-    name: "Kiny.Study",
+    name: "Kinyarwanda Study Community",
     category: "A side business",
     description:
       "A project to help non-Kinyarwanda speakers to learn how to speak Kinyarwanda.",
-    link: "https://kiny.study",
+    link: "https://nas.io/kiny",
   },
 ];
