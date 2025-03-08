@@ -26,20 +26,19 @@ export default function HomePage() {
               loader={imageLoader}
               alt="Cishahayo Songa Achille"
             />
-            <VertNav />
           </div>
           <div className="profileInfo">
             <h1>Cishahayo Songa Achille</h1>
             <span>
-              Founder of Techinika and Kinyarwanda Study Community | Helps you acquire Digital Skills | Builds
-              Software Solutions, Businesses & Communities | Write & Speak to
-              Pass on & Inspire
+              Founder of Techinika and Kinyarwanda Study Community | Helps you
+              acquire Digital Skills | Builds Software Solutions, Businesses &
+              Communities | Write & Speak to Pass on & Inspire
             </span>
             <p>
-              <hr></hr>
               <b>{`I am passionate about empowering students, building businesses, digital skills development, writing opportunities, partnerships, speaking engagements, and fostering conversations. Let us connect.`}</b>
               <br></br>
               <br></br>
+              <VertNav />
             </p>
             <div className="btns">
               <button
@@ -55,7 +54,7 @@ export default function HomePage() {
           </div>
         </div>
         <div>
-          <h2>Skills</h2>
+          <h2>How I can Help you</h2>
           <div className="skill-cards">
             {skills ? (
               skills.map((skill) => (
