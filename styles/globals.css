@@ -161,6 +161,10 @@ a:hover {
   cursor: pointer;
 }
 
+.nav2 {
+  margin: 9px 0 20px 0;
+}
+
 .nav2 p {
   margin: 0;
   width: 100%;
@@ -170,7 +174,9 @@ a:hover {
 
 .vnav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .vnav a {
