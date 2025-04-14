@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { cn } from "@/lib/utils";
-import { Header } from "@/components/general/Header";
-import Footer from "@/components/general/Footer";
+import { Footer } from "@/components/Sides/Footer";
 
 export const metadata: Metadata = {
-  title: "Book a time with Achille Songa",
-  description: "Booking page to meet Cishahayo Songa Achille",
+  title: "Cishahayo Songa Achille",
+  description: "Experienced Entrepreneur, Business Coach, and technical support engineer.",
 };
 
 export default function RootLayout({
@@ -17,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn("min-h-screen bg-background font-sans antialiased")}>
-        <Header />
+        <header></header>
         {children}
         <Footer />
       </body>
