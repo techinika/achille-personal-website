@@ -36,7 +36,6 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <Header></Header>
       <section>
         <Nav title="Experience" />
         <div>
