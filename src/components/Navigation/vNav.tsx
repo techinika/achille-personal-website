@@ -15,12 +15,8 @@ export default function VertNav() {
         >
           Newsletter
         </Link>
-        <Link target="_blank" href="/lab">
-          Lab
-        </Link>
-        <Link target="_blank" href="/experience">
-          Experience
-        </Link>
+        <Link href="/lab">Lab</Link>
+        <Link href="/experience">Experience</Link>
         <Link target="_blank" href="https://blog.achillesonga.com">
           Blog
         </Link>
