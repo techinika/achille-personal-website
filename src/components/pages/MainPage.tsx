@@ -72,14 +72,14 @@ export default function MainPage() {
       </div>
       <div>
         <h2 className="font-bold text-2xl py-3 mt-3">My Projects</h2>
-        <div className="project-cards">
+        <div className="grid md:grid-cols-2 xs:grid-cols-1 sm:grid-cols-1 gap-3">
           {projects.length !== 0 ? (
             projects.map((project) => (
               <div key={project.id} className="project-card">
                 <h2 className="text-2xl font-bold">{project.name}</h2>
                 <p>{project.category}</p>
                 <p className="desc">{project.description}</p>
-                <Separator />
+                <Separator className="my-3" />
                 <Link className="p-4 underline" href={project.link}>
                   Check out
                 </Link>
