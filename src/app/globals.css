@@ -104,18 +104,6 @@ header {
   padding: 20px;
 }
 
-/* section {
-  display: absolute;
-  background-color: white;
-  width: 50%;
-  margin: -10% auto 0 auto;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  box-shadow: inset;
-  padding: 20px;
-  text-align: justify;
-} */
-
 section {
   @apply w-1/2 mx-auto bg-white mb-0 -mt-[10%] shadow rounded-md p-5;
 }
@@ -204,31 +192,8 @@ footer p {
   height: 100%;
 }
 
-.project-cards {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 10px;
-}
-
-.project-card {
-  background-color: var(--main-color);
+.service-card {
   padding: 20px;
   text-align: center;
-  color: var(--hover-color);
   border-radius: 5px;
-}
-
-.project-card h2 {
-  padding: 0px;
-  margin: 0px;
-}
-
-.project-card .desc {
-  color: white;
-}
-
-.project-card .link {
-  color: white !important;
-  padding: 10px;
-  border: 1px solif white;
 }
