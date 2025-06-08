@@ -15,15 +15,15 @@ export default function VertNav() {
         >
           Newsletter
         </Link>
-        <Link href="/lab">Lab</Link>
-        <Link href="/experience">Experience</Link>
+        {/* <Link href="/lab">Lab</Link> */}
+        {/* <Link href="/experience">Experience</Link> */}
         <Link target="_blank" href="https://blog.achillesonga.com">
           Blog
         </Link>
 
-        <Link href="https://book.achillesonga.com" target="_blank">
+        {/* <Link href="https://book.achillesonga.com" target="_blank">
           Book a Meeting
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

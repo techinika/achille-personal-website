@@ -10,17 +10,17 @@ export const projects = [
   {
     id: 2,
     name: "Achille Songa Lab",
-    category: "Hobby",
+    category: "Personal Brand",
     description:
-      "A hub of contents I create to pour my heart out including videos and articles.",
-    link: "/lab",
+      "A hub of contents I create on personal development, entrepreneurship and technology insights.",
+    link: "https://youtube.com/@achillesonga",
   },
   {
     id: 5,
-    name: "Kinyarwanda Study Community",
+    name: "Ijwi Language Collective",
     category: "A side business",
     description:
-      "A project to help non-Kinyarwanda speakers to learn how to speak Kinyarwanda.",
-    link: "https://nas.io/kiny",
+      "Offering services including teaching Kinyarwanda, translation, interpretation, voice-over artists and subtitling.",
+    link: "https://linktr.ee/kisupport",
   },
 ];
