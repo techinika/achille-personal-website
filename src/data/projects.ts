@@ -21,6 +21,6 @@ export const projects = [
     category: "A side business",
     description:
       "Offering services including teaching Kinyarwanda, translation, interpretation, voice-over artists and subtitling.",
-    link: "https://linktr.ee/kisupport",
+    link: "https://linktr.ee/ijwi",
   },
 ];
