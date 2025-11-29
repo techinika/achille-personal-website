@@ -1,12 +1,12 @@
-import MainPage from '@/components/pages/NewMainPage';
-import React from 'react';
+import Portfolio from "@/components/pages/MainPage2025";
+import React from "react";
 
 function page() {
-    return (
-        <div>
-            <MainPage />
-        </div>
-    );
+  return (
+    <div>
+      <Portfolio />
+    </div>
+  );
 }
 
 export default page;
