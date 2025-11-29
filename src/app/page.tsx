@@ -1,4 +1,4 @@
-import MainPage from '@/components/pages/MainPage';
+import MainPage from '@/components/pages/NewMainPage';
 import React from 'react';
 
 function page() {
