@@ -13,10 +13,10 @@ export const Speaker = () => {
     >
       <div className="space-y-6">
         <p>
-          I deliver lectures and speeches on technology, business strategy, and
-          personal motivation. Whether addressing students, startup founders, or
-          corporate teams, my goal is to simplify complex tech concepts and
-          ignite a passion for innovation.
+          I deliver lectures and speeches on technology, business/startups, and
+          personal motivation. While addressing students, startup founders, or
+          corporate teams, my goal is to simplify complex concepts. I speak to
+          pass on and inspire.
         </p>
         <ul className="grid gap-4 mt-6">
           <li className="flex items-center gap-3 text-white/80">
@@ -27,8 +27,7 @@ export const Speaker = () => {
             & Students
           </li>
           <li className="flex items-center gap-3 text-white/80">
-            <Briefcase className="w-5 h-5 text-blue-500" /> Business Strategy in
-            Tech
+            <Briefcase className="w-5 h-5 text-blue-500" /> Business Strategy
           </li>
           <li className="flex items-center gap-3 text-white/80">
             <GiDiscussion className="w-5 h-5 text-blue-500" /> Technology &
