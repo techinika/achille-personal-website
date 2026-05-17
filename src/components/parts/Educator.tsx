@@ -19,9 +19,9 @@ export const Educator = () => {
           You can invite me to teach for a single day session or intensive
           workshops.
         </p>
-        <div className="p-6 bg-white/5 border border-white/10 backdrop-blur-sm rounded-none mt-6">
-          <h4 className="font-bold text-white mb-2">My Pledge</h4>
-          <p className="text-sm text-gray-400">
+        <div className="p-6 bg-[#1f1f1f]/50 border border-white/10 backdrop-blur-sm rounded-lg mt-6">
+          <h4 className="font-semibold text-[#fafafa] mb-2">My Pledge</h4>
+          <p className="text-sm text-[#a1a1aa]">
             If the cause creates significant impact for an underserved audience,
             I am open to delivering sessions pro-bono. Education should be
             accessible to all.

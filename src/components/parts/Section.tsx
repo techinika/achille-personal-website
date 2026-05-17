@@ -11,17 +11,17 @@ export const Section = ({
   return (
     <section
       id={id}
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-[80vh] flex items-center justify-center overflow-hidden py-20"
     >
       <div
         className="absolute inset-0 z-0 bg-scroll md:bg-fixed bg-center bg-cover"
         style={{ backgroundImage: `url('${backgroundImage}')` }}
       />
 
-      <div className="absolute inset-0 z-10 bg-black/80" />
+      <div className="absolute inset-0 z-10 bg-[#050505]/85" />
 
       <div
-        className={`relative z-20 container mx-auto px-6 py-24 ${
+        className={`relative z-20 container mx-auto px-6 ${
           alignment === "center"
             ? "text-center"
             : alignment === "right"
@@ -30,7 +30,7 @@ export const Section = ({
         }`}
       >
         <div
-          className={`max-w-4xl ${
+          className={`max-w-3xl ${
             alignment === "center"
               ? "mx-auto"
               : alignment === "right"
@@ -38,13 +38,13 @@ export const Section = ({
               : "mr-auto"
           }`}
         >
-          <h2 className="text-sm font-bold tracking-[0.2em] text-blue-400 uppercase mb-3">
+          <h2 className="text-xs font-semibold tracking-[0.25em] text-[#3b82f6] uppercase mb-4">
             {subtitle}
           </h2>
-          <h3 className="text-4xl md:text-6xl font-extrabold text-white mb-8 leading-tight">
+          <h3 className="text-3xl md:text-5xl font-bold text-[#fafafa] mb-8 leading-tight">
             {title}
           </h3>
-          <div className="text-lg md:text-xl text-gray-300 leading-relaxed font-light">
+          <div className="text-base md:text-lg text-[#a1a1aa] leading-relaxed">
             {children}
           </div>
         </div>

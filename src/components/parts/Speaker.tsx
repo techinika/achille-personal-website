@@ -19,18 +19,18 @@ export const Speaker = () => {
           pass on and inspire.
         </p>
         <ul className="grid gap-4 mt-6">
-          <li className="flex items-center gap-3 text-white/80">
-            <Mic className="w-5 h-5 text-blue-500" /> Technology & Future Trends
+          <li className="flex items-center gap-3 text-[#a1a1aa]">
+            <Mic className="w-5 h-5 text-[#3b82f6]" /> Technology & Future Trends
           </li>
-          <li className="flex items-center gap-3 text-white/80">
-            <Users className="w-5 h-5 text-blue-500" /> Motivation for Founders
+          <li className="flex items-center gap-3 text-[#a1a1aa]">
+            <Users className="w-5 h-5 text-[#3b82f6]" /> Motivation for Founders
             & Students
           </li>
-          <li className="flex items-center gap-3 text-white/80">
-            <Briefcase className="w-5 h-5 text-blue-500" /> Business Strategy
+          <li className="flex items-center gap-3 text-[#a1a1aa]">
+            <Briefcase className="w-5 h-5 text-[#3b82f6]" /> Business Strategy
           </li>
-          <li className="flex items-center gap-3 text-white/80">
-            <GiDiscussion className="w-5 h-5 text-blue-500" /> Technology &
+          <li className="flex items-center gap-3 text-[#a1a1aa]">
+            <GiDiscussion className="w-5 h-5 text-[#3b82f6]" /> Technology &
             Business Panel Discussions
           </li>
         </ul>

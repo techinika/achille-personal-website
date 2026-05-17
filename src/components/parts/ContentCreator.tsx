@@ -23,14 +23,14 @@ export const ContentCreator = () => {
           <Link
             href="https://youtube.com/@achillesonga"
             target="_blank"
-            className="group bg-white/5 p-6 border border-white/10 hover:border-blue-500 transition-all"
+            className="group bg-[#1f1f1f]/50 p-6 border border-white/10 hover:border-[#3b82f6] transition-all rounded-lg"
           >
             <div className="flex justify-between items-start mb-4">
-              <MonitorPlay className="w-6 h-6 text-blue-500" />
-              <ExternalLink className="w-4 h-4 text-gray-500 group-hover:text-white" />
+              <MonitorPlay className="w-6 h-6 text-[#3b82f6]" />
+              <ExternalLink className="w-4 h-4 text-[#a1a1aa] group-hover:text-[#fafafa]" />
             </div>
-            <h4 className="text-lg font-bold text-white">Video Content</h4>
-            <p className="text-sm text-gray-400 mt-2">
+            <h4 className="text-lg font-semibold text-[#fafafa]">Video Content</h4>
+            <p className="text-sm text-[#a1a1aa] mt-2">
               YouTube, TikTok & LinkedIn insights on growth, discipline and
               personal stories.
             </p>
@@ -38,16 +38,16 @@ export const ContentCreator = () => {
           <Link
             href="https://techinika.com/author/achillesonga"
             target="_blank"
-            className="group bg-white/5 p-6 border border-white/10 hover:border-blue-500 transition-all"
+            className="group bg-[#1f1f1f]/50 p-6 border border-white/10 hover:border-[#3b82f6] transition-all rounded-lg"
           >
             <div className="flex justify-between items-start mb-4">
-              <div className="w-6 h-6 bg-blue-500 flex items-center justify-center font-bold text-xs text-black">
+              <div className="w-6 h-6 bg-[#3b82f6] flex items-center justify-center font-bold text-xs text-black">
                 T
               </div>
-              <ExternalLink className="w-4 h-4 text-gray-500 group-hover:text-white" />
+              <ExternalLink className="w-4 h-4 text-[#a1a1aa] group-hover:text-[#fafafa]" />
             </div>
-            <h4 className="text-lg font-bold text-white">Techinika News</h4>
-            <p className="text-sm text-gray-400 mt-2">
+            <h4 className="text-lg font-semibold text-[#fafafa]">Techinika News</h4>
+            <p className="text-sm text-[#a1a1aa] mt-2">
               Writing tech news and analysis for the platform I founded.
             </p>
           </Link>

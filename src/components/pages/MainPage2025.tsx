@@ -11,7 +11,7 @@ import { About } from "../parts/About";
 
 export default function Portfolio() {
   return (
-    <main className="bg-black text-white font-sans selection:bg-blue-500 selection:text-white">
+    <main className="bg-[#050505] text-[#fafafa] antialiased min-h-screen">
       <Navbar />
 
       <About />

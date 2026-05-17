@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="relative h-screen flex items-center justify-center"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
       <div
         className="absolute inset-0 z-0 bg-fixed bg-center bg-cover"
@@ -12,11 +12,11 @@ export const About = () => {
           backgroundImage: `url("/moderating tito.jpg")`,
         }}
       />
-      <div className="absolute inset-0 z-10 bg-gradient-to-t from-black via-black/70 to-black/40" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-t from-[#050505] via-[#050505]/80 to-[#050505]/50" />
 
-      <div className="relative z-20 container mx-auto px-6 flex flex-col items-center text-center mt-20">
-        <div className="mb-6 p-1 border border-white/20 rounded-full">
-          <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gray-800 overflow-hidden relative">
+      <div className="relative z-20 container mx-auto px-6 flex flex-col items-center text-center">
+        <div className="mb-8 p-1 border border-white/10 rounded-full backdrop-blur-sm">
+          <div className="w-28 h-28 md:w-36 md:h-36 rounded-full bg-[#1f1f1f] overflow-hidden relative ring-1 ring-white/20">
             <img
               src="/achillesonga.png"
               alt="Cishahayo Songa Achille"
@@ -25,22 +25,22 @@ export const About = () => {
           </div>
         </div>
 
-        <h1 className="text-5xl md:text-8xl font-black mb-4 tracking-tight">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-4 tracking-tight text-[#fafafa]">
           Cishahayo <br className="md:hidden" /> Songa Achille
         </h1>
-        <p className="text-blue-400 font-mono mb-8">
-          Software Engineer | Entrepreneur | Educator | Speaker
+        <p className="text-[#3b82f6] font-medium mb-8 text-sm md:text-base tracking-wide">
+          Software Engineer &mdash; Entrepreneur &mdash; Educator &mdash; Speaker
         </p>
 
-        <div className="max-w-xl mx-auto border-l-2 border-blue-400 pl-6 text-left">
-          <p className="text-gray-300 text-lg md:text-xl italic">
+        <div className="max-w-xl mx-auto border-l border-[#3b82f6]/40 pl-6 text-left">
+          <p className="text-[#a1a1aa] text-base md:text-lg leading-relaxed">
             {`"Empowering individuals and teams to grow through storytelling, strategy, and skills for the digital age."`}
           </p>
         </div>
       </div>
 
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-white/50">
-        <ArrowRight className="rotate-90 w-6 h-6" />
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-white/30">
+        <ArrowRight className="rotate-90 w-5 h-5" />
       </div>
     </section>
   );
