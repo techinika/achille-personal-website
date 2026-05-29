@@ -17,19 +17,7 @@ const images = [
   "/images/achille on the mic.jpeg",
 ];
 
-const videos = [
-  "/videos/SWIFT TEXT.mp4",
-  "/videos/LITERACY.mp4",
-  "/videos/HD DeDollarization New.mp4",
-  "/videos/Kigali Innovation CITY.mp4",
-  "/videos/BNR CBDC HD.mp4",
-  "/videos/Ni gute ukorera amafaranga.mp4",
-  "/videos/Want to retire early and get rich quick_ Here's why most fail.mp4",
-  "/videos/Harabura iki ngo ugere kubyo ushaka_ - With Achille Songa.mp4",
-  "/videos/Haranira gusiga isi ari nziza (By Achille Songa).mp4",
-  "/videos/Ntuzananirwe kugerageza By Achille Songa.mp4",
-  "/videos/Uwakunze benshi bimugendekera gute_ [ENG SUBBED] - Achille Songa_2.mp4",
-];
+const videos: any[] = [];
 
 type MediaItem = {
   type: "image" | "video";
