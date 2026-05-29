@@ -39,7 +39,7 @@ export const FooterPart = () => {
               Consultation, speaking, or training.
             </p>
             <Link
-              href="https://calendar.app.google/BwtpDCv6tCtmtXgX9"
+              href="https://agaseke.me/achille_songa/booking"
               target="_blank"
               className="inline-block bg-[#fafafa] text-[#050505] px-5 py-2 text-sm font-medium hover:bg-[#3b82f6] hover:text-white transition-colors rounded-md"
             >

@@ -10,8 +10,9 @@ export const ContentCreator = () => {
       subtitle="Content Creator"
       title="Creating a Digital Legacy"
       alignment="center"
+      wide
     >
-      <div className="max-w-2xl mx-auto space-y-6">
+      <div className="max-w-3xl mx-auto space-y-6">
         <p>
           From my background as a TV presenter to my current work on YouTube,
           LinkedIn, and TikTok, I create content that I wish my children could

@@ -7,6 +7,7 @@ export const Section = ({
   subtitle,
   children,
   alignment = "left",
+  wide = false,
 }: SectionProps) => {
   return (
     <section
@@ -29,6 +30,7 @@ export const Section = ({
             : "text-left"
         }`}
       >
+        {/* Title area — always constrained for readability */}
         <div
           className={`max-w-3xl ${
             alignment === "center"
@@ -44,9 +46,23 @@ export const Section = ({
           <h3 className="text-3xl md:text-5xl font-bold text-[#fafafa] mb-8 leading-tight">
             {title}
           </h3>
-          <div className="text-base md:text-lg text-[#a1a1aa] leading-relaxed">
-            {children}
-          </div>
+        </div>
+
+        {/* Content — constrained in normal mode, full width in wide mode */}
+        <div
+          className={`text-base md:text-lg text-[#a1a1aa] leading-relaxed ${
+            wide
+              ? ""
+              : `max-w-3xl ${
+                  alignment === "center"
+                    ? "mx-auto"
+                    : alignment === "right"
+                    ? "ml-auto"
+                    : "mr-auto"
+                }`
+          }`}
+        >
+          {children}
         </div>
       </div>
     </section>

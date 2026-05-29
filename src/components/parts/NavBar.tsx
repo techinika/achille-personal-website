@@ -21,6 +21,10 @@ export const Navbar = () => {
     { name: "About", href: "#about" },
     { name: "Speaking", href: "#speaking" },
     { name: "Teaching", href: "#teaching" },
+    { name: "Skills", href: "#skills" },
+    { name: "Certifications", href: "#certifications" },
+    { name: "Gallery", href: "#gallery" },
+    { name: "Media", href: "#media" },
     { name: "Ventures", href: "#ventures" },
     { name: "Contact", href: "#contact" },
   ];
@@ -55,7 +59,7 @@ export const Navbar = () => {
 
         <div className="hidden md:block">
           <Link
-            href="https://calendar.app.google/BwtpDCv6tCtmtXgX9"
+            href="https://agaseke.me/achille_songa/booking"
             target="_blank"
             className="bg-[#fafafa] text-[#050505] px-5 py-2.5 text-sm font-medium hover:bg-[#3b82f6] hover:text-white transition-all duration-300 rounded-md"
           >
@@ -86,7 +90,7 @@ export const Navbar = () => {
               </Link>
             ))}
             <Link
-              href="https://calendar.app.google/BwtpDCv6tCtmtXgX9"
+              href="https://agaseke.me/achille_songa/booking"
               target="_blank"
               className="bg-[#fafafa] text-[#050505] px-5 py-2.5 text-sm font-medium text-center rounded-md"
               onClick={() => setMobileMenuOpen(false)}

@@ -8,6 +8,10 @@ import { ContentCreator } from "../parts/ContentCreator";
 import { Educator } from "../parts/Educator";
 import { Speaker } from "../parts/Speaker";
 import { About } from "../parts/About";
+import { Skills } from "../parts/Skills";
+import { Certifications } from "../parts/Certifications";
+import { Gallery } from "../parts/Gallery";
+import { MediaPress } from "../parts/MediaPress";
 
 export default function Portfolio() {
   return (
@@ -21,6 +25,14 @@ export default function Portfolio() {
       <Educator />
 
       <ContentCreator />
+
+      <Skills />
+
+      <Certifications />
+
+      <Gallery />
+
+      <MediaPress />
 
       <Ventures />
 

@@ -5,4 +5,5 @@ export interface SectionProps {
   subtitle?: string;
   children: React.ReactNode;
   alignment?: "left" | "center" | "right";
+  wide?: boolean;
 }
