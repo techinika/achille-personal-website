@@ -37,7 +37,7 @@ export const Ventures = () => {
         </Link>
 
         <Link
-          href="https://ijwi.netlify.app"
+          href="https://ijwi.vercel.app"
           target="_blank"
           className="border-l-4 border-yellow-500 bg-[#1f1f1f]/50 pl-6 py-4 pr-4 hover:bg-[#1f1f1f] transition-colors group"
         >

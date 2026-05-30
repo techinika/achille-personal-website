@@ -1,4 +1,5 @@
 import { SectionProps } from "@/types/main";
+import { Reveal } from "./Reveal";
 
 export const Section = ({
   id,
@@ -31,39 +32,43 @@ export const Section = ({
         }`}
       >
         {/* Title area — always constrained for readability */}
-        <div
-          className={`max-w-3xl ${
-            alignment === "center"
-              ? "mx-auto"
-              : alignment === "right"
-              ? "ml-auto"
-              : "mr-auto"
-          }`}
-        >
-          <h2 className="text-xs font-semibold tracking-[0.25em] text-[#3b82f6] uppercase mb-4">
-            {subtitle}
-          </h2>
-          <h3 className="text-3xl md:text-5xl font-bold text-[#fafafa] mb-8 leading-tight">
-            {title}
-          </h3>
-        </div>
+        <Reveal>
+          <div
+            className={`max-w-3xl ${
+              alignment === "center"
+                ? "mx-auto"
+                : alignment === "right"
+                ? "ml-auto"
+                : "mr-auto"
+            }`}
+          >
+            <h2 className="text-xs font-semibold tracking-[0.25em] text-[#3b82f6] uppercase mb-4">
+              {subtitle}
+            </h2>
+            <h3 className="text-3xl md:text-5xl font-bold text-[#fafafa] mb-8 leading-tight">
+              {title}
+            </h3>
+          </div>
+        </Reveal>
 
         {/* Content — constrained in normal mode, full width in wide mode */}
-        <div
-          className={`text-base md:text-lg text-[#a1a1aa] leading-relaxed ${
-            wide
-              ? ""
-              : `max-w-3xl ${
-                  alignment === "center"
-                    ? "mx-auto"
-                    : alignment === "right"
-                    ? "ml-auto"
-                    : "mr-auto"
-                }`
-          }`}
-        >
-          {children}
-        </div>
+        <Reveal delay={200}>
+          <div
+            className={`text-base md:text-lg text-[#a1a1aa] leading-relaxed ${
+              wide
+                ? ""
+                : `max-w-3xl ${
+                    alignment === "center"
+                      ? "mx-auto"
+                      : alignment === "right"
+                      ? "ml-auto"
+                      : "mr-auto"
+                  }`
+            }`}
+          >
+            {children}
+          </div>
+        </Reveal>
       </div>
     </section>
   );

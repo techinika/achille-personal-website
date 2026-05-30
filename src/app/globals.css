@@ -4,7 +4,20 @@
 * {
   box-sizing: border-box;
   font-family: var(--font-sans), sans-serif;
-  transition: all 0.3s ease;
+}
+
+@media (pointer: fine) {
+  * {
+    cursor: none;
+  }
+
+  .cursor-hover {
+    width: 48px !important;
+    height: 48px !important;
+    border-color: #3b82f6 !important;
+    background: rgba(59, 130, 246, 0.08);
+    backdrop-filter: blur(2px);
+  }
 }
 
 html {

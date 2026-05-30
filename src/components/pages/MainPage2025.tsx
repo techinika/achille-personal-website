@@ -12,10 +12,12 @@ import { Skills } from "../parts/Skills";
 import { Certifications } from "../parts/Certifications";
 import { Gallery } from "../parts/Gallery";
 import { MediaPress } from "../parts/MediaPress";
+import { CustomCursor } from "../parts/CustomCursor";
 
 export default function Portfolio() {
   return (
     <main className="bg-[#050505] text-[#fafafa] antialiased min-h-screen">
+      <CustomCursor />
       <Navbar />
 
       <About />
